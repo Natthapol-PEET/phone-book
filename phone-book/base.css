@@ -1,0 +1,44 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+
+.bg {
+    /* The image used */
+    background-image: url("https://webgradients.com/public/webgradients_png/002%20Night%20Fade.png");
+  
+    /* Full height */
+    height: auto; 
+    padding: 25px;
+  
+    /* Center and scale the image nicely */
+    background-position: center top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* background-image:-webkit-gradient(linear,left top,left bottom,from( #ffffff ),to( #5dafd3 ));
+    background-image:-webkit-linear-gradient( #ffffff,#5dafd3 );
+    background-image: -moz-linear-gradient( #ffffff,#5dafd3 );
+    background-image: -ms-linear-gradient( #ffffff,#5dafd3 );
+    background-image: -o-linear-gradient( #ffffff,#5dafd3 );
+    background-image: linear-gradient( #ffffff,#5dafd3 ); */
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+p{
+    color: brown;
+    text-align: center;
+    font-size: 50px;
+}
+
+label{
+    color: brown;
+    font-size: 30px;
+}
